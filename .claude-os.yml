@@ -1,0 +1,5 @@
+# claude-os marker — see docs/SPEC.md / templates/claude-os.yml.example
+intent: Personal one-page site deployed to GitHub Pages
+lane: build
+type: web
+ship_target: GitHub Pages
