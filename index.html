@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jack Bowker — @Jacked.IT</title>
+  <style>
+    :root {
+      --bg: #0d1117; --card: #161b22; --text: #e6edf3;
+      --muted: #8b949e; --accent: #3fb950; --line: #21262d;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg); color: var(--text);
+      font: 16px/1.6 ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+      display: flex; min-height: 100vh; align-items: center;
+      justify-content: center; padding: 24px;
+    }
+    main { width: 100%; max-width: 660px; }
+    .prompt { color: var(--accent); }
+    .intro { margin-bottom: 40px; }
+    h1 { font-size: 2.3rem; letter-spacing: -0.02em; }
+    .tagline { color: var(--muted); font-size: 1.05rem; margin-top: 10px; }
+    section { margin-bottom: 30px; }
+    h2 {
+      font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em;
+      color: var(--accent); margin-bottom: 14px;
+    }
+    p { color: var(--text); }
+    .projects { display: grid; gap: 12px; }
+    .proj {
+      background: var(--card); border: 1px solid var(--line);
+      border-radius: 10px; padding: 15px 18px;
+    }
+    .proj h3 { font-size: 0.98rem; margin-bottom: 4px; }
+    .proj p { color: var(--muted); font-size: 0.9rem; }
+    .links { display: flex; flex-wrap: wrap; gap: 18px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { color: var(--muted); font-size: 0.82rem; margin-top: 44px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="intro">
+      <h1><span class="prompt">$</span> Jack Bowker</h1>
+      <p class="tagline">IT support technician &middot; cybersecurity @ UNCW &middot; @Jacked.IT</p>
+    </div>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        IT support technician and cybersecurity student. Studying for CompTIA
+        Network+, into self-hosted infrastructure and AI.
+      </p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="proj">
+          <h3>NETSEC.TERMINAL</h3>
+          <p>Network+ study app &mdash; terminal aesthetic, spaced repetition, XP &amp; badges.</p>
+        </div>
+        <div class="proj">
+          <h3>certs-app</h3>
+          <p>React Native / Expo cert-study app with a 600+ question bank.</p>
+        </div>
+        <div class="proj">
+          <h3>homelab</h3>
+          <p>Self-hosted stack on a NUC + Proxmox &mdash; ~16 Dockerized services, IaC in git.</p>
+        </div>
+        <div class="proj">
+          <h3>claude-os</h3>
+          <p>A personal workflow system on top of Claude Code &mdash; capture, build, ship.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Find me</h2>
+      <div class="links">
+        <a href="https://tiktok.com/@Jacked.IT">TikTok</a>
+        <a href="https://github.com/jackbowker0">GitHub</a>
+      </div>
+    </section>
+
+    <footer>Built &amp; shipped in an afternoon &middot; 2026</footer>
+  </main>
+</body>
+</html>
