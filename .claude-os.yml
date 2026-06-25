@@ -3,3 +3,4 @@ intent: Personal one-page site deployed to GitHub Pages
 lane: build
 type: web
 ship_target: GitHub Pages
+status: shipped
